@@ -22,6 +22,7 @@ $ cd convite-aniversario-suuh
 #### `Step 3` - run application
 
 ```bash
+this a simple page in HTML.
 just need double click in index.html
 ```
 
