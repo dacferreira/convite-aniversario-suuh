@@ -36,7 +36,7 @@ just need double click in index.html
 - [x] - Firebase
 
 #### View
-### <p align="center"><img width="150px" height="150px" src="https://github.com/dacferreira/convite-aniversario-suuh/blob/main/images/imagem_site.png?raw=true"></p>
+### <p align="center"><img width="600px" height="1150px" src="https://github.com/dacferreira/convite-aniversario-suuh/blob/main/images/imagem_site.png?raw=true"></p>
 
 #### License
 
