@@ -10,9 +10,6 @@ Author URL: https://about.me/diogo.ferreira
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 	<meta name="keywords" content="Convite de aniversário Suellen, Convite" />
-	<!-- <script
-		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script> -->
-	<!-- bootstrap-css -->
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<!--// bootstrap-css -->
 	<!-- css -->
@@ -26,20 +23,19 @@ Author URL: https://about.me/diogo.ferreira
 	<!-- font-awesome icons -->
 	<link href="css/font-awesome.css" rel="stylesheet">
 	<!-- //font-awesome icons -->
-	<!-- font -->
-	<!-- <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
-	<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="//fonts.googleapis.com/css?family=Oswald:400,500,600,700" rel="stylesheet"> -->
-	<!-- //font -->
 	<script src="js/jquery-2.2.3.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 </head>
 
 <body>
 	<div id="loader"></div>
-	<aside class="" id="topo">
+		<div id="div-audio"><audio id="audio-normal" src="music/As_Mais_Tocadas_do_TikTok.mp3" autoplay controls loop onload="play()"></audio></div>
+		<aside class="" id="topo">
+
 		<!-- banner -->
 		<div class="suh-banner jarallax">
+		<!-- <div id="div-audio"><audio id="audio-normal" src="music/As_Mais_Tocadas_do_TikTok.mp3" autoplay controls loop onload="play()"></audio></div> -->
+
 			<div class="wthree-different-dot">
 				<div class="head">
 					<div class="container">
@@ -65,7 +61,6 @@ Author URL: https://about.me/diogo.ferreira
 									<li class="active first-list"><a href="index.html">Home</a></li>
 									<li><a href="#gallery" class="scroll">Fotos</a></li>
 									<li><a href="#book" class="scroll">Confirme sua presença</a></li>
-
 								</ul>
 							</div><!-- /.navbar-collapse -->
 						</div>
@@ -218,16 +213,6 @@ Author URL: https://about.me/diogo.ferreira
 							</div>
 						</a>
 					</div>
-					<!-- <div class="col-md-3 col-sm-6 col-xs-6 portfolio-grids" data-aos="zoom-in">
-						<a href="images/suh_lancha.jpg" class="b-link-stripe b-animate-go lightninBox"
-							data-lb-group="1">
-							<img src="images/suh_lancha.jpg" class="img-responsive" alt="suh" />
-							<div class="b-wrapper">
-								<i class="fa fa-search-plus" aria-hidden="true"></i>
-
-							</div>
-						</a>
-					</div> -->
 					<div class="col-md-3 col-sm-6 col-xs-6 portfolio-grids" data-aos="zoom-in">
 						<a href="images/suh_preto.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
 							<img src="images/suh_preto.jpg" class="img-responsive" alt="suh" />
@@ -237,16 +222,6 @@ Author URL: https://about.me/diogo.ferreira
 							</div>
 						</a>
 					</div>
-					<!-- <div class="col-md-3 col-sm-6 col-xs-6 portfolio-grids" data-aos="zoom-in">
-						<a href="images/suh_standup.jpg" class="b-link-stripe b-animate-go lightninBox"
-							data-lb-group="1">
-							<img src="images/suh_standup.jpg" class="img-responsive" alt="suh" />
-							<div class="b-wrapper">
-								<i class="fa fa-search-plus" aria-hidden="true"></i>
-
-							</div>
-						</a>
-					</div> -->
 					<div class="clearfix"> </div>
 				</div>
 
@@ -260,7 +235,7 @@ Author URL: https://about.me/diogo.ferreira
 			<h3 class="heading-agileinfo" data-aos="zoom-in">Confirme sua presença<span class="thr">Confirme a sua
 					presença ;)</span></h3>
 			<div class="book-appointment" data-aos="zoom-in">
-				<form action="#" method="post">
+				<form id="formulario">
 					<div class="gaps">
 						<p></p>
 						<input type="text" name="Name" placeholder="Nome" required="" />
@@ -268,7 +243,7 @@ Author URL: https://about.me/diogo.ferreira
 					<div class="gaps">
 						<textarea name="Message" placeholder="Mensagem..." required=""></textarea>
 					</div>
-					<input type="submit" value="Confirmar">
+					<input type="submit" id="botaoenviarmensagem" value="Confirmar">
 				</form>
 			</div>
 
@@ -290,18 +265,15 @@ Author URL: https://about.me/diogo.ferreira
 				<div class="col-md-4 layouts_footer_grid" data-aos="fade-right">
 					<h2>Maiores Informações</h2>
 					<ul class="con_inner_text">
-						<li><span class="fa fa-phone" aria-hidden="true"></span> 21 97290-5530</li>
+						<li><span class="fa fa-phone" aria-hidden="true"></span> 21 9799898998</li>
 					</ul>
 
 					<ul class="social_agileinfo">
 						<!-- <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li> -->
-						<li><a href="https://www.instagram.com/suuhazevedo_/" class="instagram"><i
+						<li><a href="https://www.instagram.com/" class="instagram"><i
 									class="fa fa-instagram"></i></a></li>
 					</ul>
 					</br>
-					<ul>
-                			<audio id="audio-normal" src="music/As_Mais_Tocadas_do_TikTok.mp3" autoplay controls loop></audio>
-					</ul>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -346,7 +318,7 @@ Author URL: https://about.me/diogo.ferreira
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$().UItoTop({ easingType: 'easeOutQuart' });
-		});
+		});		
 	</script>
 	<!-- //here ends scrolling icon -->
 	<!-- scrolling script -->
@@ -361,7 +333,15 @@ Author URL: https://about.me/diogo.ferreira
 		jQuery(window).load(function() {
 			//Após a leitura da pagina o evento fadeOut do loader é acionado, esta com delay para ser perceptivo em ambiente fora do servidor.
 			jQuery("#loader").delay(100).fadeOut("slow");
+			
 		});
+
+		let playAttempt = setInterval(() => {
+			$('#audio-normal').get(0).play()
+				.then(() => {
+					clearInterval(playAttempt);
+				})
+			}, 300);
 	</script>
 	<!-- //scrolling script -->
 	<!-- animation effects-js files-->
@@ -369,24 +349,40 @@ Author URL: https://about.me/diogo.ferreira
 	<script src="js/aos1.js"></script><!-- //animation effects-js-->
 	<!-- animation effects-js files-->
 
+	<!-- Include Firebase Library -->
+	<script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
 	<script type="module">
-		// Import the functions you need from the SDKs you need
-		import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-app.js";
-		// TODO: Add SDKs for Firebase products that you want to use
-		// https://firebase.google.com/docs/web/setup#available-libraries
-	  
-		// Your web app's Firebase configuration
 		const firebaseConfig = {
-		  apiKey: "AIzaSyCR2AEh-7lQ34yHhR3E0MpnmHsA9q6b3OA",
-		  authDomain: "aniversario-suuh.firebaseapp.com",
-		  projectId: "aniversario-suuh",
-		  storageBucket: "aniversario-suuh.appspot.com",
-		  messagingSenderId: "555322944175",
-		  appId: "1:555322944175:web:5a5417ee9531de80b2825a"
+			apiKey: "{{API_KEY}}",
+			authDomain: "{{DOMAIN}}",
+			databaseURL: "{{DATA_BASE_URL}}",
+			projectId: "{{PROJECT_ID}}",
+			storageBucket: "{{STORAGE}}",
+			messagingSenderId: "{{MESSAGE_ID}}",
+			appId: "{{APP_ID}}"
 		};
 	  
 		// Initialize Firebase
-		const app = initializeApp(firebaseConfig);
+		firebase.initializeApp(firebaseConfig);
+
+		$("form").submit(function( event ) {
+			event.preventDefault();
+
+			var data = {
+               nome: $( "input" ).first().val(),
+               mensagem: $( "textarea" ).first().val(),
+           };
+		   var dbRef = firebase.database();
+		   var contactsRef = dbRef.ref('contacts');
+
+		   contactsRef.push(data);
+		   alert('Obrigado por confirmar sua presença!');
+		   limparCampos();
+		});
+		var limparCampos = function(){
+            $( "input" ).first().val("")
+            $( "textarea" ).first().val("");
+     	};
 	  </script>
 
 </body>
