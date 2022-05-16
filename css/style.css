@@ -353,8 +353,8 @@ ul.dropdown-menu {
 }
 
 .more-button a:hover {
-    background: #e709c1;
-    border: solid 2px #e709c1;
+    background: #B8860B;
+    border: solid 2px #B8860B;
 }
 
 /*------------------ Slider Part starts Here----------*/
@@ -617,7 +617,7 @@ ul.social-slide li i.mac {
     display: block;
     height: 6px;
     width: 6px;
-    background: #f5076c;
+    background: #B8860B;
     display: inline-block;
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -627,8 +627,8 @@ ul.social-slide li i.mac {
 }
 
 .callbacks_here a:after {
-    border: 2px solid #f5076c;
-    background: #f5076c;
+    border: 2px solid #B8860B;
+    background: #B8860B;
     height: 12px;
     width: 12px;
 }
@@ -658,7 +658,7 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
     font-size: 40px;
     margin-bottom: 1.9em;
     text-align: center;
-    color: #e709c1;
+    color: #B8860B;
     position: relative;
     margin-top: 0;
 }
@@ -674,7 +674,7 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 
 .heading-agileinfo span:after {
     content: '';
-    background: #e709c1;
+    background: #B8860B;
     height: 2px;
     width: 70px;
     position: absolute;
@@ -688,7 +688,7 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 }
 
 .modal-header h4 {
-    color: #e709c1;
+    color: #B8860B;
     font-size: 30px;
     font-weight: 600;
     text-align: center;
@@ -706,7 +706,7 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 .agileits_services_grid h3 {
     font-size: 22px;
     font-weight: 600;
-    color: #e709c1;
+    color: #B8860B;
     text-transform: capitalize;
     letter-spacing: 1px;
     padding-top: 20px;
@@ -726,18 +726,18 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 .layouts_more a {
     display: inline-block;
     font-size: 1em;
-    color: #e709c1;
+    color: #B8860B;
     text-transform: uppercase;
     padding: 8px 20px;
-    border: 2px solid #e709c1;
+    border: 2px solid #B8860B;
     font-weight: 600;
     letter-spacing: 2px;
     text-decoration: none;
 }
 
 .layouts_more a:hover {
-    background: #e709c1;
-    border: 2px solid #e709c1;
+    background: #B8860B;
+    border: 2px solid #B8860B;
     color: #fff;
 }
 
@@ -829,7 +829,7 @@ span.thr {
     font-size: 20px;
     text-transform: uppercase;
     margin: 25px 0 20px;
-    color: #e709c1;
+    color: #B8860B;
     font-weight: 600;
 }
 
@@ -899,7 +899,7 @@ span.thr {
 .numscroller {
     font-size: 3em;
     font-weight: 300;
-    color: #e709c1;
+    color: #B8860B;
 }
 
 /*-- //stats --*/
@@ -1141,7 +1141,7 @@ section.portfolio-agileinfo {
 
 .agile-dish-caption h4 {
     font-size: 1.5em;
-    color: #e709c1;
+    color: #B8860B;
     margin: 0.6em 0 0em;
     font-weight: 500;
     letter-spacing: 1px;
@@ -1178,7 +1178,7 @@ p.para-agile {
 
 .g1 p span.fa {
     font-size: 1.8em;
-    color: #e709c1;
+    color: #B8860B;
     margin-right: 0.5em;
 }
 
@@ -1206,7 +1206,7 @@ p.para-agile {
 }
 
 .moto-color1_3 {
-    color: #e709c1;
+    color: #B8860B;
 }
 
 .tabl-erat h6 {
@@ -1217,7 +1217,7 @@ p.para-agile {
 
 .tag a {
     display: inline-block;
-    background: #e709c1;
+    background: #B8860B;
     padding: 6px 16px;
     color: #fff;
     text-decoration: none;
@@ -1308,7 +1308,7 @@ p.para-agile {
     letter-spacing: 1px;
     border: none;
     outline: none;
-    background: #f53275;
+    background: #B8860B;
     transition: 0.5s all ease;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
@@ -1359,7 +1359,7 @@ section.team {
     font-size: 18px;
     margin: 10px 0 0;
     letter-spacing: 1px;
-    color: #e709c1;
+    color: #B8860B;
     font-weight: normal;
 }
 
@@ -1495,7 +1495,7 @@ section.team {
 .testi-info .nav-tabs li a:hover {
     opacity: 1;
     border: none;
-    color: #e709c1;
+    color: #B8860B;
 }
 
 #testi label,
@@ -1532,13 +1532,13 @@ section.team {
 }
 
 .event-left h5 {
-    color: #e709c1;
+    color: #B8860B;
     font-size: 1.6em;
     margin: 0 0 10px 0;
 }
 
 span.icon-event {
-    color: #e709c1;
+    color: #B8860B;
     font-weight: 600;
     font-size: 1.1em;
     text-transform: capitalize;
@@ -1558,8 +1558,8 @@ span.icon-event {
 
 .event-left a:hover {
     color: #fff;
-    background: #e709c1;
-    border: 1px solid #e709c1;
+    background: #B8860B;
+    border: 1px solid #B8860B;
 }
 
 .event-left h6 {
@@ -1575,7 +1575,7 @@ span.icon-event {
 }
 
 .event-left h5 a:hover {
-    color: #e709c1;
+    color: #B8860B;
 }
 
 .event-left,
@@ -1597,7 +1597,7 @@ span.icon-event {
 }
 
 .event-right h4 {
-    color: #e709c1;
+    color: #B8860B;
     font-size: 1.4em;
     text-transform: uppercase;
     text-align: center;
@@ -1617,7 +1617,7 @@ span.icon-event {
 .event-right h4 span.num {
     display: inline-block;
     font-size: 1.2em;
-    color: #e709c1;
+    color: #B8860B;
 }
 
 .event-right h4 span {
@@ -1662,7 +1662,7 @@ h3.heading-agileinfo.white-ls {
 
 .more-button a {
     font-size: 15px;
-    background: #e709c1;
+    background: #B8860B;
     color: #fff;
     padding: 8px 25px;
     display: inline-block;
@@ -1796,7 +1796,7 @@ button.btn1 {
     padding: 15px 0;
     text-align: center;
     text-decoration: none;
-    background: #f53275;
+    background: #B8860B;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;

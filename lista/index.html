@@ -1,0 +1,194 @@
+<!--A Design by Diogo Alves
+Author: Diogo Alves
+Author URL: https://about.me/diogo.ferreira
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Convite de aniversário Suellen</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Convite de aniversário Suellen, Convite" />
+	<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!--// bootstrap-css -->
+	<!-- css -->
+	<link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
+	<link href="../css/jQuery.lightninBox.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="../css/flexslider.css" type="text/css" media="screen" property="" />
+	<!-- animation -->
+	<link href="../css/aos.css" rel="stylesheet" type="text/css" media="all" /><!-- //animation effects-css-->
+	<!-- //animation -->
+	<!--// css -->
+	<!-- font-awesome icons -->
+	<link href="../css/font-awesome.css" rel="stylesheet">
+	<!-- //font-awesome icons -->
+	<script src="../js/jquery-2.2.3.min.js"></script>
+	<script src="../js/bootstrap.js"></script>
+</head>
+
+<body>
+	<div id="loader"></div>
+	<aside class="" id="topo">
+
+		<!-- banner -->
+		<div class="suh-banner jarallax">
+		<!-- <div id="div-audio"><audio id="audio-normal" src="music/As_Mais_Tocadas_do_TikTok.mp3" autoplay controls loop onload="play()"></audio></div> -->
+
+			<div class="wthree-different-dot">
+				<div class="head">
+					<div class="container">
+						<div class="navbar-top">
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav link-effect-4">
+									<li class="active first-list"><a href="../index.html">Home</a></li>
+								</ul>
+							</div><!-- /.navbar-collapse -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //banner -->
+	</aside>
+	<!-- services -->
+	<div class="mt-" id="">
+		<h3 class="heading-agileinfo" data-aos="zoom-in">Lista de Confirmados!<span class="">
+			Lista de pessoas confirmadas e mensagem</span></h3>
+		<div class="container">
+		<ul id="lista-convidados">
+			
+		</ul>	
+		</div>
+	</div>
+	<!-- //services -->
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="f-bg">
+				<div class="col-md-4 layouts_footer_grid" data-aos="fade-right">
+					<h2>Maiores Informações</h2>
+					<ul class="con_inner_text">
+						<li><span class="fa fa-phone" aria-hidden="true"></span> 21 99999-9999</li>
+					</ul>
+
+					<ul class="social_agileinfo">
+						<!-- <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li> -->
+						<li><a href="https://www.instagram.com/" class="instagram"><i
+									class="fa fa-instagram"></i></a></li>
+					</ul>
+					</br>
+					<!-- <ul>
+						<audio id="audio-normal" src="music/As_Mais_Tocadas_do_TikTok.mp3" autoplay controls loop></audio>
+					</ul> -->
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<p class="copyright" data-aos="zoom-in">© 28ª Primavera da Suuh. All Rights Reserved </p>
+	</div>
+	<!-- //footer -->
+
+	<!-- js for portfolio lightbox -->
+	<script src="../js/jQuery.lightninBox.js"></script>
+	<script type="text/javascript">
+		$(".lightninBox").lightninBox();
+	</script>
+	<!-- /js for portfolio lightbox -->
+	<!-- flexSlider -->
+	<script defer src="../js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+		$(window).load(function () {
+			$('.flexslider').flexslider({
+				animation: "slide",
+				start: function (slider) {
+					$('body').removeClass('loading');
+				}
+			});
+		});
+	</script>
+	<!-- //flexSlider -->
+
+	<script type="text/javascript" src="../js/move-top.js"></script>
+	<script type="text/javascript" src="../js/easing.js"></script>
+
+	<script src="../js/jarallax.js"></script>
+	<script src="../js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script><!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$().UItoTop({ easingType: 'easeOutQuart' });
+		});		
+	</script>
+	<!-- //here ends scrolling icon -->
+	<!-- scrolling script -->
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+
+		jQuery(window).load(function() {
+			//Após a leitura da pagina o evento fadeOut do loader é acionado, esta com delay para ser perceptivo em ambiente fora do servidor.
+			jQuery("#loader").delay(100).fadeOut("slow");
+			
+		});
+	</script>
+	<!-- //scrolling script -->
+	<!-- animation effects-js files-->
+	<script src="../js/aos.js"></script><!-- //animation effects-js-->
+	<script src="../js/aos1.js"></script><!-- //animation effects-js-->
+	<!-- animation effects-js files-->
+
+	<!-- Include Firebase Library -->
+	<script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
+	<script type="module">
+		const firebaseConfig = {
+			apiKey: "{{API_KEY}}",
+			authDomain: "{{DOMAIN}}",
+			databaseURL: "{{DATA_BASE_URL}}",
+			projectId: "{{PROJECT_ID}}",
+			storageBucket: "{{STORAGE}}",
+			messagingSenderId: "{{MESSAGE_ID}}",
+			appId: "{{API_KEY}}"
+		};
+	  
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+		
+		//create firebase database reference
+		var dbRef = firebase.database();
+		var contactsRef = dbRef.ref('contacts');
+		contactsRef.on("child_added", function(snap) {
+			$('#lista-convidados').append(contactHtmlFromObject(snap.val()));
+		});
+
+		//prepare conatct object's HTML
+		function contactHtmlFromObject(contact){
+		var html = '';
+		html += '<div class="col-md-12 ser-2" data-aos="fade-right">';
+			html += '<div id="lista-convidados" class="grid1">';
+				html += '<b><p>Nome:</p></b>';
+				html += '<p>'+contact.nome+'</p>';
+				html += '<b><p>Mensagem:</p></b>';
+				html += '<p>'+contact.mensagem+'</p>';
+				html += '</div>';
+				html += '</div>';
+				html += '<div class="clearfix"></div>';
+		return html;
+		}
+	  </script>
+
+</body>
+
+</html>
